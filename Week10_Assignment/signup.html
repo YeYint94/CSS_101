@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="signup.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Borel&family=Handjet&family=Montserrat:wght@200&family=Quicksand&display=swap');
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Myanmar IT Training.</h1>
+        <h3>Setting up your account...</h3>
+    </header>
+    <div class="section">
+        <div class="form">
+            <form action="#">
+                <div class="form-group">
+                    <label for="fname">First Name :</label>
+                    <input type="text" name="fname" id="fname">
+                </div> <br>
+                <div class="form-group">
+                    <label for="lname">Last Name :</label>
+                    <input type="text" name="lname" id="lname"> 
+                </div> <br>
+                <div class="form-group">
+                    <label for="email">Email Address :</label>
+                    <input type="email" name="email" id="email" placeholder="example@gmail.com" required>  
+                </div> <br>
+                <div class="form-group">
+                    <label for="re-email">Retype Email Address :</label>
+                    <input type="email" name="re-email" id="re-email" required>
+                </div> <br>
+                <div class="form-group">
+                    <label style="display: inline;" for="bday">Date of Birth :</label>
+                    <input type="date" name="bday" id="bday">
+                </div> <br>
+                <div class="gender">
+                    <label style="display: inline;" for="gender">Gender :</label>
+                    <select name="gender" id="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="none">Prefer not to say</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="pword">Password :</label>
+                    <input type="password" name="pword" id="pword">
+                </div> <br>
+                <div class="form-group">
+                    <label for="confirm-pword">Confirm Password :</label>
+                    <input type="password" name="confirm-pword" id="confirm-pword">
+                </div>
+                <div class="terms">
+                    <input type="checkbox" name="terms" id="terms">
+                    <label style="font-size: 13px; display: inline;" for="terms">By signing up, I have agreed the terms and conditions of Myanmar IT Training.</label>
+                </div>
+                <input type="submit" value="Sign Up">
+            </form>
+            <p class="login"><a href="login.html">Already have an account?</a></p>
+        </div>
+    </div>
+    <footer>
+        <p> Created by Ye Yint &copy; Myanmar IT Training. All Rights Reserved. </p>
+    </footer>
+</body>
+</html>

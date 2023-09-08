@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(emile-perron-xrVDYZRGdw4-unsplash.jpg);
+    background-size: 100%;
+    color: #f7f7f7;
+}
+header{
+    margin-left: 90px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+h3{
+    font-weight: lighter;
+}
+.form{
+    border: 1px solid none;
+    margin-left: 50px;
+    margin-right: 650px;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    backdrop-filter: brightness(70%);
+    backdrop-filter: drop-shadow(4px 4px 10px rgb(179, 179, 185));
+}
+label{
+    display: block;
+    font-weight: bold;
+    color: #f0f0f0;
+}
+input[type=text]{
+    width: 95%;
+    padding: 10px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #333;
+    background-color: #edeeef;
+}
+input[type=email]{
+    width: 95%;
+    padding: 10px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #333;
+    background-color: #edeeef;
+}
+input[type=password]{
+    width: 95%;
+    padding: 10px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #333;
+    background-color: #edeeef;
+}
+input[type=date]{
+    width: 40%;
+    padding: 10px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #333;
+    background-color: #edeeef;
+}
+.gender{
+    float: right;
+    margin-top: -56px;
+    margin-right: 30px;
+}
+.gender select{
+    padding: 10px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #333;   
+    background-color: #edeeef;
+}
+input[type=submit]{
+    width: 99%;
+    padding: 10px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #333;
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+}
+.terms{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+input[type=submit]:hover{
+    background-color: #d3d5d7;
+    cursor: pointer;
+}
+.login a{
+    text-decoration: none;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: lighter;
+    color: #f0f0f0;
+}
+.login a:hover{
+    font-weight: bold;
+}
+footer {
+    margin-left: 200px;
+    color: #f0f0f0;
+    font-size: 13px;
+    opacity: 0.7;
+}
