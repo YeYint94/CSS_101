@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+
+    <!--bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+    crossorigin="anonymous">
+
+    <!--font awesome icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="p-3 mb-2 bg-light-subtle text-black">
+        <div class="sub-container bg-light">
+            <h2 class="text-center font-monospace">Welcome to MM IT Training</h2>
+            <h4 class="text-center fw-light">Create An Account.</h4>
+            <form action="#" class="row g-3">
+                <div class="col-md-6">
+                    <label for="fname">First Name :</label>
+                    <i class="fa-solid fa-user"></i>
+                    <input class="form-control input-group mb-3" type="text" name="fname" id="fname" placeholder="John" required>
+                    <label for="lname">Last Name :</label>
+                    <i class="fa-solid fa-user"></i>
+                    <input class="form-control input-group mb-3" type="text" name="lname" id="lname" placeholder="Doe" required>
+                </div>
+                
+                <div class="col-md-6">
+                    <label for="email">Email :</label>
+                    <i class="fa-solid fa-envelope"></i>
+                    <input class="form-control input-group mb-3" type="email" name="email" id="email" required>
+                    <label for="re_email">Confirm your Email :</label>
+                    <input class="form-control input-group mb-3" type="re_email" name="email" id="re_email" required>
+                </div>
+
+                <div class="row g-3 align-items-center">
+                    <div class="col-6">
+                        <label for="pword">Create your password :</label>
+                        <i class="fa-solid fa-lock"></i>
+                        <input class="form-control input-group mb-3" type="password" name="pword" id="pword">
+                    </div>
+                    <div class="col-auto">
+                        <span id="passwordHelpInline" class="form-text">
+                          Must be 8-20 characters long.
+                        </span>
+                    </div>
+
+                    <div class="col-6">
+                        <label for="re_pword">Confirm your password :</label>
+                        <input class="form-control input-group mb-3" type="password" name="re_pword" id="re_pword" required>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <label for="gender">Gender :</label>
+                    <i class="fa-solid fa-venus-mars"></i>
+                    <select class="form-select" name="genders" id="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="null">Prefer not to say</option>
+                    </select> 
+                </div>
+                
+                <div class="col-12">
+                    <input class="form-check-input mt-0" type="checkbox" name="t&c" id="t&c" required>
+                    <label class="form-check-label" for="t&c">I've read and accept the <a href="#" class="text-decoration-none">Terms and Conditions</a></label>
+                </div>
+                <br><br>
+
+                <div class="col-md-3">
+                    <input class="btn btn-outline-primary col-12" type="submit" value="Sign Up">
+                </div> <br><br>
+
+                <div class="col-12">
+                    <input class="btn btn-outline-info" type="button" value="Sign in by using Facebook!">
+                    <input class="btn btn-outline-info" type="button" value="Sign in by using Google!">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
